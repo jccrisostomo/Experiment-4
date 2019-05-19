@@ -67,7 +67,7 @@ int main()
 	default:
 	cout << "Invalid Option";
 }
-	cout << endl << endl << "Will You Continue .. Y/N : "; cin >> s;
+	cout << endl << endl << "Continue? .. Y/N : "; cin >> s;
 }while(s == 'Y'||s=='y');
 	_getch();
 	return 0;
